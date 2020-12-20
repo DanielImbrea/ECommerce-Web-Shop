@@ -31,7 +31,6 @@ export const App = () => {
     <div>
       <Navbar totalItems={cart.total_items} />
       <Products products={products} onAddToCart={handleAddToCart} />
-      <p>da</p>
     </div>
   );
 };
